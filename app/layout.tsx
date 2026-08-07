@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: BUSINESS_NAME,
   description: "Programmatic SEO demo built with Next.js App Router.",
+  verification: {
+    google: "DFwIHnDZytYU1eu2Sl_pJET_7oLpinwEhwu4tkfuQgc",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
